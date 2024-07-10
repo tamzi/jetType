@@ -1,7 +1,12 @@
 pluginManagement {
     repositories {
-        google()
-        mavenLocal()
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
         mavenCentral()
         gradlePluginPortal()
     }
@@ -13,6 +18,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = ("jetType")
+
+rootProject.name = "JetType"
 include(":app")
-include(":typo")
