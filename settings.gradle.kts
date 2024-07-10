@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "JetType"
 include(":app")
+include(":typo")
