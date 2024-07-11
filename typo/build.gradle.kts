@@ -36,7 +36,7 @@ dependencies {
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
-        implementation(platform(libs.androidx.compose.bom))
+    implementation(platform(libs.androidx.compose.bom))
     implementation(libs.material)
     implementation(libs.androidx.ui.text.android)
     implementation(libs.androidx.material3.android)
