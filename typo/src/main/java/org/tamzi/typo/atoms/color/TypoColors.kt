@@ -1,6 +1,7 @@
-package com.tamzi.typo.atoms.color
+package org.tamzi.typo.atoms.color
 
 import androidx.compose.ui.graphics.Color
+
 /**
 
 Set transparency with hex value:

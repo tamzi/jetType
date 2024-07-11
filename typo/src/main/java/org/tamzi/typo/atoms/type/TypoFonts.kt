@@ -1,9 +1,8 @@
 package com.tamzi.typo.atoms.type
 
-
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
-import com.tamzi.typo.R
+import org.tamzi.typo.R
 
 /**
  * Typo typography:

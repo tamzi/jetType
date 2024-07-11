@@ -36,15 +36,11 @@ dependencies {
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
+        implementation(platform(libs.androidx.compose.bom))
     implementation(libs.material)
     implementation(libs.androidx.ui.text.android)
+    implementation(libs.androidx.material3.android)
     testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
-
-    implementation(libs.core.ktx)
-    implementation(libs.lifecycle.runtime.ktx)
-    implementation(libs.activity.compose)
 
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
@@ -52,12 +48,9 @@ dependencies {
     implementation(libs.androidx.material3)
 
     testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.test.ext.junit)
-    androidTestImplementation(libs.espresso.core)
-    androidTestImplementation(libs.androidx.compose.ui.ui.test.junit42)
 
-    androidTestImplementation(libs.androidx.compose.ui.ui.test.junit42)
-
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
 
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
